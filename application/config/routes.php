@@ -40,6 +40,10 @@
 
 $route['default_controller'] = "principal";
 $route['404_override'] = '';
+$route['nusoap'] = 'mysoapserver/index'; 
+$route['nusoap_client'] = 'mysoapclient/index'; 
+#$route['cms_contest'] = 'contest/admin/index'; 
+#$route['cms_contest/(:any)'] = 'contest/admin/$1'; 
 
 /*$route['reporte/(:num)'] = 'reporte/index/$1';*/
 
